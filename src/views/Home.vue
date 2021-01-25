@@ -1,18 +1,21 @@
+<!-- Appeler les composants de la page d4accueil -->
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <SwitchLanguage/>
+    <Multilingual/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import SwitchLanguage from '../components/SwitchLanguage.vue'
+import Multilingual from '../components/Multilingual.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    SwitchLanguage,
+    Multilingual
   }
 }
 </script>
