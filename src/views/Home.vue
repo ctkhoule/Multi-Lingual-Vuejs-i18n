@@ -1,6 +1,7 @@
 <!-- Appeler les composants de la page d4accueil -->
 <template>
   <div>
+    <h3>Application multilingue utilisant le plugin vue-i18n</h3>
     <SwitchLanguage/>
     <Multilingual/>
   </div>

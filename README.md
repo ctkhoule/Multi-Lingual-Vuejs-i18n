@@ -5,6 +5,11 @@
 npm install
 ```
 
+## Add Vue-i18n Plugin in Vue 
+```
+npm install vue-i18n
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
